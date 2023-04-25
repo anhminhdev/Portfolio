@@ -14,5 +14,9 @@ function PageTransitions() {
       document.getElementById(e.target.dataset.id).classList.add("active");
     })
   })
+
+  document.querySelector('.theme-btn').addEventListener('click', (e) => {
+    document.body.classList.toggle('light-mode')
+  })
 }
 PageTransitions()
