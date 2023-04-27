@@ -172,9 +172,6 @@
         padding-right: 4rem;
       }
     }
-    .contact-content {
-      height: calc(100vh - 5%);
-    }
   }
 }
 
@@ -246,6 +243,15 @@
       .right-contact {
         padding-right: 2rem;
       }
+    }
+  }
+}
+
+@media screen and (max-width: 1432px) {
+  .contact-content {
+    flex-direction: column;
+    .left-contact {
+      padding-bottom: 3rem;
     }
   }
 }

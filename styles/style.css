@@ -827,9 +827,6 @@ section {
   section .about-container .left-about {
     padding-right: 4rem;
   }
-  section .contact-content {
-    height: calc(100vh - 5%);
-  }
 }
 @media screen and (max-width: 820px) {
   .header-content {
@@ -891,5 +888,13 @@ section {
   }
   .contact .contact-content .right-contact {
     padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 1432px) {
+  .contact-content {
+    flex-direction: column;
+  }
+  .contact-content .left-contact {
+    padding-bottom: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
